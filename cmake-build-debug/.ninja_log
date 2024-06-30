@@ -1,6 +1,10 @@
 # ninja log v6
+8	787	7417906208312904	build.ninja	537d91ef4f7472bf
 51	1470	7414372926632818	CMakeFiles/apnaguide_tasks.dir/simple_calculator.cpp.obj	be09e8fa04d77b7
-11	848	7414420555098553	build.ninja	537d91ef4f7472bf
-1107	1447	7414363742985275	apnaguide_tasks.exe	7b98dba98548752
 27	1975	7414378946940286	CMakeFiles/apnaguide_tasks.dir/Student_Grade_Tracker.cpp.obj	10b42598ab91248b
-12	846	7414420555098553	build.ninja	537d91ef4f7472bf
+42	1325	7414433628068237	CMakeFiles/apnaguide_tasks_simple_calculator.dir/simple_calculator.cpp.obj	e0d59925f39d3f63
+24	3300	7416098149519891	CMakeFiles/apnaguide_tasks_simple_calculator.dir/banking_system.cpp.obj	f717d7286a2d5ef6
+1327	1648	7414433640916948	apnaguide_tasks_simple_calculator.exe	313c8a91bab22e93
+1988	2250	7414433647533486	apnaguide_tasks_student_grade_tracker.exe	991e973962759307
+57	1987	7414433628220707	CMakeFiles/apnaguide_tasks_student_grade_tracker.dir/student_grade_tracker.cpp.obj	3b42890b259cd86
+50	1968	7417913674733648	CMakeFiles/apnaguide_tasks_simple_calculator.dir/chess_game.cpp.obj	cf51fe7e1ff09617

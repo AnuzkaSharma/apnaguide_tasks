@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "apnaguide_tasks_simple_calculator.exe"
+			"path" : "apnaguide_tasks_student_grade_tracker.exe"
 		},
 		{
-			"path" : "apnaguide_tasks_simple_calculator.pdb"
+			"path" : "apnaguide_tasks_student_grade_tracker.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 11,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"define" : "SIMPLE_CALCULATOR_BUILD"
+					"define" : "STUDENT_GRADE_TRACKER_BUILD"
 				}
 			],
 			"language" : "CXX",
@@ -70,7 +70,7 @@
 			]
 		}
 	],
-	"id" : "apnaguide_tasks_simple_calculator::@6890427a1f51a3e7e1df",
+	"id" : "apnaguide_tasks_student_grade_tracker::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -90,8 +90,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "apnaguide_tasks_simple_calculator",
-	"nameOnDisk" : "apnaguide_tasks_simple_calculator.exe",
+	"name" : "apnaguide_tasks_student_grade_tracker",
+	"nameOnDisk" : "apnaguide_tasks_student_grade_tracker.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -112,7 +112,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "simple_calculator.cpp",
+			"path" : "student_grade_tracker.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

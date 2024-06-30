@@ -1,4 +1,5 @@
 C:/Users/Lenovo/CLionProjects/apnaguide_tasks/cmake-build-debug/CMakeFiles/apnaguide_tasks_simple_calculator.dir
 C:/Users/Lenovo/CLionProjects/apnaguide_tasks/cmake-build-debug/CMakeFiles/apnaguide_tasks_student_grade_tracker.dir
+C:/Users/Lenovo/CLionProjects/apnaguide_tasks/cmake-build-debug/CMakeFiles/apnaguide_tasks.dir
 C:/Users/Lenovo/CLionProjects/apnaguide_tasks/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Lenovo/CLionProjects/apnaguide_tasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir

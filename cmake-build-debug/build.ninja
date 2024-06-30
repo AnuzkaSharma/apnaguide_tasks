@@ -56,6 +56,27 @@ build CMakeFiles/apnaguide_tasks_simple_calculator.dir/simple_calculator.cpp.obj
   OBJECT_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
   OBJECT_FILE_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
 
+build CMakeFiles/apnaguide_tasks_simple_calculator.dir/banking_system.cpp.obj: CXX_COMPILER__apnaguide_tasks_simple_calculator_unscanned_Debug C$:/Users/Lenovo/CLionProjects/apnaguide_tasks/banking_system.cpp || cmake_object_order_depends_target_apnaguide_tasks_simple_calculator
+  DEFINES = -DSIMPLE_CALCULATOR_BUILD
+  DEP_FILE = CMakeFiles\apnaguide_tasks_simple_calculator.dir\banking_system.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+
+build CMakeFiles/apnaguide_tasks_simple_calculator.dir/library_system.cpp.obj: CXX_COMPILER__apnaguide_tasks_simple_calculator_unscanned_Debug C$:/Users/Lenovo/CLionProjects/apnaguide_tasks/library_system.cpp || cmake_object_order_depends_target_apnaguide_tasks_simple_calculator
+  DEFINES = -DSIMPLE_CALCULATOR_BUILD
+  DEP_FILE = CMakeFiles\apnaguide_tasks_simple_calculator.dir\library_system.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+
+build CMakeFiles/apnaguide_tasks_simple_calculator.dir/chess_game.cpp.obj: CXX_COMPILER__apnaguide_tasks_simple_calculator_unscanned_Debug C$:/Users/Lenovo/CLionProjects/apnaguide_tasks/chess_game.cpp || cmake_object_order_depends_target_apnaguide_tasks_simple_calculator
+  DEFINES = -DSIMPLE_CALCULATOR_BUILD
+  DEP_FILE = CMakeFiles\apnaguide_tasks_simple_calculator.dir\chess_game.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target apnaguide_tasks_simple_calculator
@@ -64,7 +85,7 @@ build CMakeFiles/apnaguide_tasks_simple_calculator.dir/simple_calculator.cpp.obj
 #############################################
 # Link the executable apnaguide_tasks_simple_calculator.exe
 
-build apnaguide_tasks_simple_calculator.exe: CXX_EXECUTABLE_LINKER__apnaguide_tasks_simple_calculator_Debug CMakeFiles/apnaguide_tasks_simple_calculator.dir/simple_calculator.cpp.obj
+build apnaguide_tasks_simple_calculator.exe: CXX_EXECUTABLE_LINKER__apnaguide_tasks_simple_calculator_Debug CMakeFiles/apnaguide_tasks_simple_calculator.dir/simple_calculator.cpp.obj CMakeFiles/apnaguide_tasks_simple_calculator.dir/banking_system.cpp.obj CMakeFiles/apnaguide_tasks_simple_calculator.dir/library_system.cpp.obj CMakeFiles/apnaguide_tasks_simple_calculator.dir/chess_game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\apnaguide_tasks_simple_calculator.dir
@@ -110,6 +131,12 @@ build apnaguide_tasks_student_grade_tracker.exe: CXX_EXECUTABLE_LINKER__apnaguid
 
 
 #############################################
+# Utility command for apnaguide_tasks
+
+build apnaguide_tasks: phony CMakeFiles/apnaguide_tasks apnaguide_tasks_simple_calculator.exe apnaguide_tasks_student_grade_tracker.exe
+
+
+#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
@@ -130,6 +157,12 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for CMakeFiles\apnaguide_tasks
+
+build CMakeFiles/apnaguide_tasks | ${cmake_ninja_workdir}CMakeFiles/apnaguide_tasks: phony apnaguide_tasks_simple_calculator.exe apnaguide_tasks_student_grade_tracker.exe || apnaguide_tasks_simple_calculator.exe apnaguide_tasks_student_grade_tracker.exe
 
 # =============================================================================
 # Target aliases.
