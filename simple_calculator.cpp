@@ -30,6 +30,8 @@ double divide(double num1, double num2) {
     return num1 / num2;
 }
 
+
+
 int main() {
     int choice;
     double num1, num2, result;
@@ -80,5 +82,3 @@ int main() {
 
     return 0;
 }
-
-#include "simple_calculator.h"
